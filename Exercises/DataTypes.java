@@ -8,3 +8,11 @@ public class DataTypes {
     boolean boleano;
 
 }
+
+public DataTypes(){
+    this.cadena = "Hola mundo";
+    this.entero = 10;
+    this.flotante = 5.9f;
+    this.caracter = 'A';
+    this.boleano = true;
+}
