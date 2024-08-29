@@ -9,7 +9,7 @@ public class Colecciones {
     ArrayList<String> cars ;
     String[] bikes;
     Set<String> bicicles;
-    HashMap<Integer, String> transport;
+    public HashMap<Integer, String> transport;
 
     public Colecciones(){
         this.cars = new ArrayList<String>();
@@ -62,7 +62,7 @@ public class Colecciones {
 
 
 
-        this.transport.forEach((key, value) -> System.out.println(key + " " + value)); //imprimir para pruebas
+        transport.forEach((key, value) -> System.out.println(key + " " + value)); //imprimir para pruebas
         return this.transport;
     }
 }

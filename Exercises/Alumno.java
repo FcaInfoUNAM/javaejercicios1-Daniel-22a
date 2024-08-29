@@ -1,7 +1,8 @@
 package Exercises;
 
 
-     public Alumno(String nombre, String materia, int calificacion){
+     public class Alumno extends Sobrecarga {
+        public Alumno(String nombre, String materia, int calificacion){
             super(nombre, materia, calificacion);
         }
 
@@ -13,4 +14,4 @@ package Exercises;
             return ":)";
             
         }
-    }
+             }
